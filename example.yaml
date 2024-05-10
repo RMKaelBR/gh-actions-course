@@ -1,0 +1,17 @@
+name: 'Written like this'
+boolean: true
+config:
+  path: first-directory/file.yaml
+  environment: staging
+
+array:
+  - name: red
+    hex: ff0000
+    labels:
+      - experimental
+      - accessibility
+  - name: green
+    hex: 00ff00
+  - blue
+  - 10
+  - true
