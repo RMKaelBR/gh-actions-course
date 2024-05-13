@@ -3,6 +3,8 @@ name: 02 - Workflow Events
 on: 
   push:
   pull_request:
+  schedule:
+    - cron: '50 12 13 5 1'
   workflow_dispatch:
 
 jobs:
