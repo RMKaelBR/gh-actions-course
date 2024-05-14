@@ -9,18 +9,18 @@ jobs:
       - name: Show OS
         run: |
           echo "This job is running on an Ubuntu runner! :)"
-          echo "${RUNNER_OS} yeaah."
+          echo "${RUNNER_OS}"
   windows-echo:
     runs-on: windows-latest
     steps:
       - name: Show OS
         run: |
           echo "This job is running on a Windows runner! :D"
-          echo "${RUNNER_OS} uhuh?"
+          echo "%RUNNER_OS%"
   mac-echo:
     runs-on: macos-latest
     steps:
       - name: Show OS
         run: |
           echo "This job is running on a MacOS runner! XD"
-          echo "${RUNNER_OS} wow!"
+          echo "${RUNNER_OS}"
